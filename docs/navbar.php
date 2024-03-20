@@ -36,7 +36,7 @@
     		<a class="nav-link active" href="post.html">Postingan</a>
     		</li>
 			<li class="nav-item for-logged-in">
-				<a class="nav-link active" href="upload.php">Buat</a>
+				<a class="nav-link active" href="buat.php">Buat</a>
 			</li>
 			<li class="nav-item for-not-logged-in">
 			<a class="nav-link text-danger for-not-logged-in" href="login_regis/login.php">Log in</a>

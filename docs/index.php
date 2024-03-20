@@ -6,7 +6,6 @@ session_start();
     <main role="main">
     <section class="mt-4 mb-5">
     <div class="container mb-4">
-    	<h1 class="font-weight-bold title">Home</h1>
     	<div class="row">
     		
     	</div>
