@@ -1,6 +1,14 @@
 <?php
 // Start the session
 session_start();
+// Check if user is not logged in
+if (!isset($_SESSION['login']) || $_SESSION['login'] != 'login') {
+    echo "<script>
+    alert('Anda belum Login');
+    location.href='index.php'; // Redirect to login page
+    </script>";
+    exit(); // Stop further execution
+}
 ?>
 <?php include('navbar.php')?>
     <main role="main">
