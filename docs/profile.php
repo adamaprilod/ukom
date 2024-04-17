@@ -20,9 +20,8 @@ if (!isset($_SESSION['login']) || $_SESSION['login'] != 'login') {
     	<img src="assets/img/av.png" class="mt-neg100 mb-4 rounded-circle" width="128">
     	<h1 class="font-weight-bold title"><?php echo strtoupper($_SESSION['username']); ?></h1>
         <a class="btn btn-primary" href="login_regis/edit_profile.php" role="button">Edit Profile</a>
+        <a class="btn btn-warning" href="login_regis/edit_profile.php" role="button">Kelola Post</a>
     </div>
-    
-        
     </main>
 
     <script src="assets/js/app.js"></script>

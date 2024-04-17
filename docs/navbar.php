@@ -39,7 +39,7 @@
 				<a class="nav-link active" href="buat.php">Buat</a>
 			</li>
 			<li class="nav-item for-not-logged-in">
-			<a class="nav-link text-danger for-not-logged-in" href="login_regis/login.php">Log in</a>
+			<a class="nav-link text-success  for-not-logged-in" href="login_regis/login.php">Log in</a>
 			</li>
 			<li class="nav-item for-not-logged-in">
 			<a class="nav-link text-danger for-not-logged-in" href="login_regis/register.php">Sign Up</a>

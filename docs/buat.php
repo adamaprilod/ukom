@@ -20,7 +20,7 @@ if (!isset($_SESSION['login']) || $_SESSION['login'] != 'login') {
                         <div class="card-body">
                             <h5 class="card-title">Mau Buat Apa?</h5>
                             <a class="btn btn-info mr-2" href="album.php" role="button">Buat Album</a> <!-- Add right margin to separate buttons -->
-                            <a class="btn btn-danger" href="login_regis/edit_profile.php" role="button">Upload Foto</a>
+                            <a class="btn btn-danger" href="upload_foto.php" role="button">Upload Foto</a>
                         </div>
                     </div>
                 </div>
